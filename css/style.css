@@ -23,8 +23,9 @@ h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
-ul {
+ul,ol {
     list-style: none;
+    padding: 0;
 }
 
 a {
@@ -328,23 +329,11 @@ a {
     padding: 10px 30px;
 }
 
-/* .btn-download p {
-    color: var(--color-white);
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-} */
-
 .btn-download:hover {
     background-color: var(--color-white);
     border: 1px solid var(--main-color);
     color: rgba(0, 0, 0, 0.7);
 }
-
-/* .btn-download:hover p {
-    color: var(--main-color);
-    opacity: 0.8;
-} */
 
 .btn-contact {
     background-color: var(--color-white);
@@ -357,17 +346,6 @@ a {
 
 }
 
-/* color: rgba(33, 37, 41, 0.75); */
-    /*muted class*/
-/* .btn-contact p {
-    color: var(--main-color);
-    opacity: 0.8;
-    
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-} */
-
 .btn-contact:hover {
     background-color: var(--main-color);
     border: 1px solid var(--color-white);
@@ -375,10 +353,6 @@ a {
     opacity: 1;
 }
 
-/* .btn-contact:hover p {
-    color: var(--color-white);
-    opacity: 1;
-} */
 
 @media screen and (min-width:1200px) and (max-width:1399px) {
 
@@ -533,17 +507,11 @@ a {
     -webkit-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
     transform: translateY(-15px);
-    /* transition: all 0.5s; */
-    /* transition-delay: 0.5s; */
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
-.work-buttons {
-    /* -webkit-transform: translateY(15px);
-    -ms-transform: translateY(15px);
-    transform: translateY(15px); */
-    /* transition: all 0.1s; */
-    /* transition-delay: 0.5s; */
-}
 
 .work-layer button {
     display: inline-block;
@@ -574,19 +542,8 @@ a {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
 }
 
-/* .work-card:hover .work-buttons {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-} */
 
 /*work modal*/
 .btn-close {
